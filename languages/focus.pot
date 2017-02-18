@@ -1,0 +1,404 @@
+# <!=Copyright (C) 2017 Hexagone
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Focus 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-02-18 21:21:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid "Nothing was found at this location. Visit the home page or try a search?"
+msgstr ""
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:45
+msgid "Images"
+msgstr ""
+
+#: archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:54
+msgid "Links"
+msgstr ""
+
+#: archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: archive.php:66
+msgid "Archives"
+msgstr ""
+
+#: comment.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comment.php:48
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comment.php:52 content-page.php:24 content.php:61 inc/template-tags.php:135
+msgid "Edit"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "1 Response"
+msgid_plural "%1$s Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:55
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:56
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:27 content.php:27
+msgid "Pages:"
+msgstr ""
+
+#: content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+
+#: content.php:38 content.php:48 inc/template-tags.php:121
+#: inc/template-tags.php:128
+msgid ", "
+msgstr ""
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:58 inc/template-tags.php:117
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:58 inc/template-tags.php:117
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:48
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:18
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:20
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:125
+msgid "All"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:126
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:127
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:128
+msgid "Devanagari"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:129
+msgid "Greek"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:130
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:131
+msgid "Khmer"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:132
+msgid "Latin"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:133
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:134
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:194
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:198
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:202
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: inc/customizer-options.php:28
+msgid "Highlight Color"
+msgstr ""
+
+#: inc/customizer-options.php:36
+msgid "Highlight Hover Color"
+msgstr ""
+
+#: inc/customizer-options.php:47
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer-options.php:53
+msgid "Primary Font"
+msgstr ""
+
+#: inc/customizer-options.php:62
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/customizer-options.php:71
+msgid "Google Font Subset"
+msgstr ""
+
+#: inc/customizer-options.php:72
+msgid "Not all fonts provide each of these subsets."
+msgstr ""
+
+#: inc/customizer-options.php:84
+msgid "Post"
+msgstr ""
+
+#: inc/customizer-options.php:90
+msgid "Display Post Meta"
+msgstr ""
+
+#: inc/customizer-options.php:91
+msgid "Displays post date and author under title."
+msgstr ""
+
+#: inc/customizer-options.php:102
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer-options.php:108
+msgid "Footer Text"
+msgstr ""
+
+#: inc/extras.php:46
+msgid "Name"
+msgstr ""
+
+#: inc/extras.php:47
+msgid "Name *"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Email"
+msgstr ""
+
+#: inc/extras.php:54
+msgid "Email *"
+msgstr ""
+
+#: inc/extras.php:60 inc/extras.php:61
+msgid "Website"
+msgstr ""
+
+#: inc/extras.php:79
+msgid "Comment *"
+msgstr ""
+
+#: inc/extras.php:104
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/extras.php:105
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: inc/extras.php:109
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: inc/extras.php:207
+msgid "Don't display image in post."
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:28
+msgid "Page %s of %s"
+msgstr ""
+
+#: inc/template-tags.php:32
+msgid "<span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "<span class=\"meta-nav\"></span> "
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgctxt "post date"
+msgid "Posted %s"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:117
+msgid "Comment"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Focus"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://devpress.com/focus"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Focus is a minimalistic WordPress theme for showcasing images and text. It has been optimized for speed and looks great on all devices."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hexagone"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://devpress.com"
+msgstr ""

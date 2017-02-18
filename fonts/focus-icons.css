@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'focus-icons';
+	src:url('focus-icons.eot?v1');
+	src:url('focus-icons.eot?#v1') format('embedded-opentype'),
+		url('focus-icons.woff?v1') format('woff'),
+		url('focus-icons.ttf?v1') format('truetype'),
+		url('focus-icons.svg?v1#focus') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="focus-icon-"], [class*=" focus-icon-"] {
+	font-family: 'focus-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.focus-icon-search:before {
+	content: "\f002";
+}
+.focus-icon-search-plus:before {
+	content: "\f00e";
+}
+.focus-icon-search-minus:before {
+	content: "\f010";
+}
+.focus-icon-tags:before {
+	content: "\f02c";
+}
+.focus-icon-pencil:before {
+	content: "\f040";
+}
+.focus-icon-folder-open:before {
+	content: "\f07c";
+}
+.focus-icon-twitter:before {
+	content: "\f099";
+}
+.focus-icon-facebook:before {
+	content: "\f09a";
+}
+.focus-icon-github:before {
+	content: "\f09b";
+}
+.focus-icon-navicon:before {
+	content: "\f0c9";
+}
+.focus-icon-pinterest:before {
+	content: "\f0d2";
+}
+.focus-icon-google-plus:before {
+	content: "\f0d5";
+}
+.focus-icon-linkedin:before {
+	content: "\f0e1";
+}
+.focus-icon-mail-reply:before {
+	content: "\f112";
+}
+.focus-icon-pencil-square:before {
+	content: "\f14b";
+}
+.focus-icon-instagram:before {
+	content: "\f16d";
+}
+.focus-icon-flickr:before {
+	content: "\f16e";
+}
+.focus-icon-tumblr:before {
+	content: "\f173";
+}
+.focus-icon-dribbble:before {
+	content: "\f17d";
+}
+.focus-icon-skype:before {
+	content: "\f17e";
+}
+.focus-icon-vimeo-square:before {
+	content: "\f194";
+}
+.focus-icon-wordpress:before {
+	content: "\f19a";
+}
+.focus-icon-behance:before {
+	content: "\f1b4";
+}
+.focus-icon-spotify:before {
+	content: "\f1bc";
+}
+.focus-icon-link:before {
+	content: "\f0c1";
+}
+.focus-icon-caret-down:before {
+	content: "\f0d7";
+}
+.focus-icon-user:before {
+	content: "\f007";
+}
+.focus-icon-clock:before {
+	content: "\f017";
+}
+.focus-icon-tag:before {
+	content: "\f02b";
+}
+.focus-icon-comments:before {
+	content: "\f086";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}

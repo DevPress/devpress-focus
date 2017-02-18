@@ -1,0 +1,17 @@
+{
+	"name": "focus",
+	"version": "1.1.0",
+	"devDependencies": {
+		"grunt": "^1.0.0",
+		"grunt-autoprefixer": "^3.0.0",
+		"grunt-cli": "^1.2.0",
+		"grunt-contrib-concat": "^1.0.0",
+		"grunt-contrib-uglify": "^2.0.0",
+		"grunt-contrib-sass": "^1.0.0",
+		"grunt-contrib-watch": "^1.0.0",
+		"grunt-cssjanus" : "^0.3.0",
+		"grunt-text-replace": "^0.4.0",
+		"grunt-wp-i18n": "^1.0.0",
+		"load-grunt-tasks": "^3.0.0"
+	}
+}
