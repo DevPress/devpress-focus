@@ -36,10 +36,9 @@ module.exports = function(grunt) {
 			build: {
 				src: [
 					'js/skip-link-focus-fix.js',
-					'js/jquery.fastclick.js',
 					'js/jquery.fitvids.js',
 					'js/theme.js'
-						],
+					],
 				dest: 'js/focus.min.js',
 				}
 		},

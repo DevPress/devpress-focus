@@ -5,7 +5,7 @@
  * @package        Customizer_Library
  * @author         Devin Price, The Theme Foundry
  * @license        GPL-2.0+
- * @version        1.2.0
+ * @version        1.0.0
  */
 
 // If this file is called directly, abort.
@@ -14,29 +14,26 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Continue if the Customizer_Library isn't already in use.
-if ( ! class_exists( 'Customizer_Library' ) ) : // Helper functions to output the customizer controls.
-{
+if ( ! class_exists( 'Customizer_Library' ) ) :
+
+	// Helper functions to output the customizer controls.
 	require plugin_dir_path( __FILE__ ) . 'extensions/interface.php';
 
-// Helper functions for customizer sanitization.
+	// Helper functions for customizer sanitization.
 	require plugin_dir_path( __FILE__ ) . 'extensions/sanitization.php';
 
-// Helper functions to build the inline CSS.
+	// Helper functions to build the inline CSS.
 	require plugin_dir_path( __FILE__ ) . 'extensions/style-builder.php';
 
-// Helper functions for fonts.
+	// Helper functions for fonts.
 	require plugin_dir_path( __FILE__ ) . 'extensions/fonts.php';
 
-// Utility functions for the customizer.
+	// Utility functions for the customizer.
 	require plugin_dir_path( __FILE__ ) . 'extensions/utilities.php';
 
-// Customizer preview functions.
+	// Customizer preview functions.
 	require plugin_dir_path( __FILE__ ) . 'extensions/preview.php';
 
-// Custom controls for the theme customizer.
-	if ( version_compare( $GLOBALS['wp_version'], '4.0', '<' ) ) {
-		require plugin_dir_path( __FILE__ ) . 'custom-controls/textarea.php';
-	}
 
 	/**
 	 * Class wrapper with useful methods for interacting with the theme customizer.
@@ -86,6 +83,5 @@ if ( ! class_exists( 'Customizer_Library' ) ) : // Helper functions to output th
 		}
 
 	}
-}
 
 endif;

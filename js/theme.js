@@ -71,7 +71,7 @@
 			$('.nav-menu > .page_item_has_children, .nav-menu > .menu-item-has-children').append( '<span class="dropdown-toggle" />');
 
 			// When mobile menu is tapped/clicked
-			this.cache.$menutoggle.fastClick( function() {
+			this.cache.$menutoggle.on( 'click', function() {
 				if ( ! self.cache.$menu.hasClass('toggled') ) {
 					self.cache.$menu.fadeToggle( '400', function() {
 						self.cache.$menu.addClass('toggled');
@@ -84,15 +84,15 @@
 			});
 
 			// When mobile submenu is tapped/clicked
-			$('.dropdown-toggle').fastClick( function() {
+			$('.dropdown-toggle').on( 'click', function() {
 				var $submenu = $(this).parent().find('.children, .sub-menu'),
 					$toggle = $(this);
 				if ( ! $(this).hasClass('toggled') ) {
-					$submenu.fadeToggle( '400', function() {
+					$submenu.fadeToggle( '100', function() {
 						$toggle.addClass('toggled');
 					});
 				} else {
-					$submenu.fadeToggle( '400', function(){
+					$submenu.fadeToggle( '100', function(){
 						$toggle.removeClass('toggled');
 					});
 				}
@@ -114,7 +114,7 @@
 
 		// Comments
 		commentsInit: function() {
-			$('#reply-title').fastClick( function() {
+			$('#reply-title').on( 'click', function() {
 				$('#commentform').fadeToggle();
 			});
 		},

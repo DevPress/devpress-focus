@@ -3,14 +3,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Focus 1.1.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2017-02-18 21:21:50+00:00\n"
+"Report-Msgid-Bugs-To: https://devpress.com\n"
+"POT-Creation-Date: 2017-03-19 18:44:26+00:00\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: DevPress (https://devpress.com)\n"
+"Language-Team: DevPress <support@devpress.com>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: 404.php:15
 msgid "Page can&rsquo;t be found."
@@ -32,18 +44,8 @@ msgstr ""
 msgid "Month: %s"
 msgstr ""
 
-#: archive.php:33
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
 #: archive.php:36
 msgid "Year: %s"
-msgstr ""
-
-#: archive.php:36
-msgctxt "yearly archives date format"
-msgid "Y"
 msgstr ""
 
 #: archive.php:39
@@ -90,21 +92,9 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: comment.php:48
-msgctxt "1: date, 2: time"
-msgid "%1$s at %2$s"
-msgstr ""
-
 #: comment.php:52 content-page.php:24 content.php:61 inc/template-tags.php:135
 msgid "Edit"
 msgstr ""
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "1 Response"
-msgid_plural "%1$s Responses"
-msgstr[0] ""
-msgstr[1] ""
 
 #: comments.php:35 comments.php:55
 msgid "Comment navigation"
@@ -131,11 +121,15 @@ msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: content-none.php:28
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: content-page.php:18 content-single.php:27 content.php:27
@@ -146,10 +140,9 @@ msgstr ""
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
-
 #: content.php:38 content.php:48 inc/template-tags.php:121
 #: inc/template-tags.php:128
+#. translators: used between list items, there is a space after the comma
 msgid ", "
 msgstr ""
 
@@ -231,21 +224,6 @@ msgstr ""
 
 #: inc/customizer-library/extensions/fonts.php:134
 msgid "Vietnamese"
-msgstr ""
-
-#: inc/customizer-library/extensions/fonts.php:194
-msgctxt "font style"
-msgid "Serif"
-msgstr ""
-
-#: inc/customizer-library/extensions/fonts.php:198
-msgctxt "font style"
-msgid "Sans Serif"
-msgstr ""
-
-#: inc/customizer-library/extensions/fonts.php:202
-msgctxt "font style"
-msgid "Monospaced"
 msgstr ""
 
 #: inc/customizer-options.php:28
@@ -356,6 +334,57 @@ msgstr ""
 msgid "Post navigation"
 msgstr ""
 
+#: inc/template-tags.php:117
+msgid "Comment"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Focus is a minimalistic WordPress theme for showcasing images and text. It "
+"has been optimized for speed and looks great on all devices."
+msgstr ""
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: comment.php:48
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "1 Response"
+msgid_plural "%1$s Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer-library/extensions/fonts.php:194
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:198
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/customizer-library/extensions/fonts.php:202
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
 #: inc/template-tags.php:62
 msgctxt "Next post link"
 msgid "<span class=\"meta-nav\"></span>"
@@ -374,31 +403,4 @@ msgstr ""
 #: inc/template-tags.php:100
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
-
-#: inc/template-tags.php:117
-msgid "Comment"
-msgstr ""
-
-#: search.php:16
-msgid "Search Results for: %s"
-msgstr ""
-#. Theme Name of the plugin/theme
-msgid "Focus"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://devpress.com/focus"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Focus is a minimalistic WordPress theme for showcasing images and text. It has been optimized for speed and looks great on all devices."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Hexagone"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://devpress.com"
 msgstr ""

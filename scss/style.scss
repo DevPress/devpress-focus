@@ -66,13 +66,15 @@ a {
 	color: $primary-color;
 	text-decoration: none;
 	transition: color 0.2s ease;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $highlight-color;
+		text-decoration: underline;
+	}
 }
-a:hover,
-a:focus,
-a:active {
-	color: $primary-hover;
-	text-decoration: underline;
-}
+
 
 /* Layout
 -------------------------------------------------------------- */
@@ -114,6 +116,10 @@ a:active {
 .site-title a {
 	color: #555;
 	text-decoration: none;
+
+	&:hover {
+		color: $highlight-color;
+	}
 }
 .site-description {
 	font-size:15px;
