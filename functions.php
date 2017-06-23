@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'FOCUS_VERSION', '1.1.0' );
+define( 'FOCUS_VERSION', '1.2.0' );
 
 /**
  * Set the content width based on the theme's design and stylesheet.

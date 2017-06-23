@@ -1,6 +1,6 @@
 # Focus
 
-Focus is a minimalistic WordPress theme for showcasing images and text. It has been optimized for speed and looks great on all devices.
+Focus is a minimalistic WordPress theme for showcasing images. It has been optimized for page speed and looks great on all devices.
 
 ## Credits
 
@@ -19,7 +19,7 @@ If you have Grunt installed, just run `npm install` in the theme directory to do
 
 ## Change Log
 
-1.2.0
+1.2.0 - 06.22.2017
 ---
 
 * Focus release
