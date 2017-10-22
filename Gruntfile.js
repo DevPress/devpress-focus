@@ -23,13 +23,15 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		autoprefixer: {
+		postcss: {
 			options: {
-				browsers: ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1', 'ie 9']
+				map: true,
+				processors: [
+					require('autoprefixer-core')({browsers: 'last 2 versions'}),
+				]
 			},
-			single_file: {
-				src: 'style.css',
-				dest: 'style.css'
+			files: {
+				'style.css': 'style.css'
 			}
 		},
 		concat: {
@@ -123,13 +125,13 @@ module.exports = function(grunt) {
 
 	grunt.registerTask( 'default', [
 		'sass',
-		'autoprefixer',
+		'postcss'
 	]);
 
 	grunt.registerTask( 'release', [
 		'replace',
 		'sass',
-		'autoprefixer',
+		'postcss',
 		'concat:build',
 		'uglify:build',
 		'makepot',

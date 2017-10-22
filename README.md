@@ -19,6 +19,12 @@ If you have Grunt installed, just run `npm install` in the theme directory to do
 
 ## Change Log
 
+Development
+---
+
+* Update: Improved .scss organization and linting
+* Update: Switch to latest autoprefixing library
+
 1.2.0 - 06.22.2017
 ---
 
